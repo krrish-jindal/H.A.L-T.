@@ -66,3 +66,22 @@ void readCard(){
   digitalWrite(Green_led , HIGH);
   digitalWrite(Red_led , LOW);    
 }
+
+
+// Normal Code Working 
+void Normal_function(int delay_time ){            
+   for (pos = 0; pos <= 90; pos += 1) {            
+      myservo.write(pos);             
+      delay(15);  
+    }
+  digitalWrite(Green_led , HIGH);
+  digitalWrite(Red_led , LOW);
+  delay(delay_time) ;
+  for (pos = 90; pos >= 0; pos -= 1) { 
+    myservo.write(pos);              
+    delay(15);                      
+  }
+  digitalWrite(Green_led ,LOW);
+  digitalWrite(Red_led , HIGH);
+  delay(base_delay) ;
+}
