@@ -1,7 +1,7 @@
 # H.A.L.T
 ## Holistic Traffic Management System
 
-The project had multiple (Proximity sensors embedded on the road to determine the density of traffic waiting on a particular signal and accordingly control the traffic lights. Apart from this the red-light sensors also had a RFID receiver which detected a passing emergency vehicle such as an ambulance and appropriately changed the traffic lights.In addition to this grafana was used to represent data in a dynamic way.
+The project had multiple (Proximity sensors embedded on the road to determine the density of traffic waiting on a particular signal and accordingly control the traffic lights. Apart from this the red-light sensors also had a RFID receiver which detected a passing emergency vehicle such as an ambulance and appropriately changed the traffic lights.In addition to this grafana was used to represent data in a dynamic way.We have implemented openCV to manage traffic in a better and cost effective way.
 
 ![Holistic traffic management system](https://user-images.githubusercontent.com/84952780/173198548-de8e2d2e-53cd-4c11-8c58-bd520c489844.png)
 
@@ -59,3 +59,7 @@ We are using it to show the data coming in from the sensors to monitor the flow 
 ![image](https://user-images.githubusercontent.com/84952780/174129103-674f4962-555e-42ad-991f-1a19d06c43e4.png)
 
 ![image](https://user-images.githubusercontent.com/84952780/174129139-455fc0a9-feb7-487e-b070-9e7009cf126d.png)
+<<<<<<< HEAD
+=======
+![7](https://user-images.githubusercontent.com/84956432/219025528-5b6d56fd-10cc-4c65-b3c6-222551c65f90.jpg)
+>>>>>>> 92931ed14798a2e40e60370288c6809e4041455b
