@@ -63,6 +63,16 @@ We are using it to show the data coming in from the sensors to monitor the flow 
 ![7](https://user-images.githubusercontent.com/84956432/219025528-5b6d56fd-10cc-4c65-b3c6-222551c65f90.jpg)
 
 ![image](https://github.com/krrish-jindal/H.A.L.T/blob/main/Assets/image.png)
+
+# OPEN CV
+With the boom of artificial intelligence and machine learning, this project can be upgraded to the next level with the integration of computer vision (OpenCV). OpenCV works on image capturing technology and calculating the contour area for every frame and passing it on further. Based on the area of contours we can further manipulate the duration of green signal for subsequent cycles
+![6](https://user-images.githubusercontent.com/84952780/170505446-30d74291-6b9c-4d08-a657-64af858bcfe1.png)
+# STEPS
+```bash
+  pip install opencv
+  cv2.imread()
+  cv2.imshow()
+  
 ## Installation
 
 - ### Installing python dependencies
@@ -285,11 +295,4 @@ file:///home/divi/Pictures/grafana1.png![image](https://user-images.githubuserco
 ![image](https://user-images.githubusercontent.com/84952780/173678644-d9f7fb6a-b36e-4b4c-9751-8affe7ae302e.png)
 
 
-# OPEN CV
-With the boom of artificial intelligence and machine learning, this project can be upgraded to the next level with the integration of computer vision (OpenCV). OpenCV works on image capturing technology and calculating the contour area for every frame and passing it on further. Based on the area of contours we can further manipulate the duration of green signal for subsequent cycles
-![6](https://user-images.githubusercontent.com/84952780/170505446-30d74291-6b9c-4d08-a657-64af858bcfe1.png)
-# STEPS
-```bash
-  pip install opencv
-  cv2.imread()
-  cv2.imshow()
+
