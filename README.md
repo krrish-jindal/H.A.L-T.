@@ -46,6 +46,9 @@ Furthermore we have used:
 
 We even used Open cv for better detection of traffic.
 
+For OpenCV run videom.py with sit2.txt.
+
+
 ### Data Visualisation using GRAFANA
 ***
 
